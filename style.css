@@ -248,17 +248,18 @@ section {
     }
 
     .icon {
-        height: 90px;
-        margin: 20px;
-        margin-top: 20px;
-        padding-bottom: 0%;
-        margin-bottom: 0%;
-    }
+    height: 90px;
+    margin: 20px 20px 0 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
 
-    .icon:hover {
-        height: 80px;
-        margin-bottom: 10px;
-        transition: all 0.3s ease;
-        cursor: pointer;
-    }
+.icon.active {
+    height: 90px; /* aumenta no clique */
+
+}
+
+
 }

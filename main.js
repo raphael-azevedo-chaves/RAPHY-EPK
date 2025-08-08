@@ -31,3 +31,12 @@ document.querySelectorAll(".video-card").forEach(card => {
       frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
   });
 });
+
+// hover button icones
+
+const icon = document.querySelector('.icon');
+
+icon.addEventListener('click', () => {
+  icon.classList.toggle('active');
+});
+
