@@ -248,6 +248,16 @@ section {
     }
 
     .icon {
+        height: 70px;
+        margin: 20px;
+        margin-top: 20px;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+    }
+
+    .icon:hover {
         height: 80px;
+        margin-bottom: 10px;
+        transition: all 0.3s ease;
     }
 }
